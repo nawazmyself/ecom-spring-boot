@@ -8,6 +8,8 @@ import org.hibernate.annotations.UpdateTimestamp;
 import java.time.LocalDateTime;
 
 
+//This is User Model ###############################################################################
+
 @Data
 @Entity
 public class User {
