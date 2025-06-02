@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 public class UserService {
     private final UserRepository userRepository;
 
-    public List<UserResponse> fetchALlUsers(){
+    public List<UserResponse> fetchAllUsers(){
         return userRepository.findAll().stream()
                 .map(this::mapToUserResponse)
                 .collect(Collectors.toList());
